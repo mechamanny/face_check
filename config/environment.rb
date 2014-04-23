@@ -18,6 +18,9 @@ require 'logger'
 require 'sinatra'
 require "sinatra/reloader" if development?
 
+require 'better_errors'
+
+
 require 'erb'
 
 # Some helper constants for path-centric logic
@@ -37,6 +40,13 @@ configure do
   set :views, File.join(Sinatra::Application.root, "app", "views")
 end
 
+
+configure :development do
+	use BetterErrors::Middleware
+  # you need to set the application root in order to abbreviate filenames
+  # within the application:
+  BetterErrors.application_root = APP_ROOT.to_path
+end
 # Set up the controllers and helpers
 Dir[APP_ROOT.join('app', 'controllers', '*.rb')].each { |file| require file }
 Dir[APP_ROOT.join('app', 'helpers', '*.rb')].each { |file| require file }

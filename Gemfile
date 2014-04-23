@@ -18,6 +18,11 @@ gem 'rake'
 
 gem 'shotgun'
 
+group :development do
+  gem 'better_errors'
+  gem 'binding_of_caller'
+end
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'
@@ -28,3 +33,4 @@ group :test, :development do
   gem 'factory_girl'
   gem 'faker'
 end
+
