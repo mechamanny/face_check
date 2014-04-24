@@ -18,6 +18,8 @@ require 'logger'
 require 'sinatra'
 require "sinatra/reloader" if development?
 
+
+
 require 'erb'
 
 # Some helper constants for path-centric logic
@@ -36,6 +38,8 @@ configure do
   # Set the views to
   set :views, File.join(Sinatra::Application.root, "app", "views")
 end
+
+
 
 # Set up the controllers and helpers
 Dir[APP_ROOT.join('app', 'controllers', '*.rb')].each { |file| require file }

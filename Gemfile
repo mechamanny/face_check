@@ -11,12 +11,13 @@ gem 'sinatra-contrib'
 # Use Thin for our web server
 gem 'thin'
 
+# activerecord ORM
 gem 'activesupport'
 gem 'activerecord'
 
 gem 'rake'
 
-gem 'shotgun'
+gem 'shotgun'		
 
 group :test do
   gem 'shoulda-matchers'
@@ -28,3 +29,4 @@ group :test, :development do
   gem 'factory_girl'
   gem 'faker'
 end
+
