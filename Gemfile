@@ -11,17 +11,13 @@ gem 'sinatra-contrib'
 # Use Thin for our web server
 gem 'thin'
 
+# activerecord ORM
 gem 'activesupport'
 gem 'activerecord'
 
 gem 'rake'
 
-gem 'shotgun'
-
-group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller'
-end
+gem 'shotgun'		
 
 group :test do
   gem 'shoulda-matchers'
