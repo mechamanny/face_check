@@ -15,6 +15,9 @@ gem 'thin'
 gem 'activesupport'
 gem 'activerecord'
 
+#face recognition
+
+
 gem 'rake'
 
 gem 'shotgun'		
