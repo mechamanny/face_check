@@ -1,16 +1,29 @@
 .container {
   margin: 20px auto;
-  width: 1024px;
+  width: 85%;
   padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
+  text-align: center;
+}
+
+#video {
+	border: 2px, solid;
+}
+
+#photo {
+	width:94.5%;
+	
 }
 
 canvas {
 	display: none;
 }
 
-#photo {
-
+nav {
+	background-color: black;
+	color: white;
 }
 
-
+nav h1 {
+	margin:0;
+}
