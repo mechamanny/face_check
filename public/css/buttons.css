@@ -1,10 +1,24 @@
 .filter-button, #startbutton {
 	font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 	
 	color: white;
-	height:45px;
-	background:#6A9AD9;
-	box-shadow: none;
+	height:40px;
+	width: 25	%;
+	margin:2px;
+	background:#2C7EE8;
 	border:none;
 	border-radius: 5px;
 	letter-spacing: 1px;
+}
+
+.filter-button:hover, #startbutton:hover {
+	background-color: #084596;
+}
+
+#startbutton {
+	width:35%;	
+}
+
+#reset {
+	margin:2px;
+	width:100%;
 }

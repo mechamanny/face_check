@@ -23,8 +23,32 @@ canvas {
 nav {
 	background-color: black;
 	color: white;
+	width: 100%;
+}
+
+nav ul {
+	display: inline;
+	float:right;
+	margin-right: 10px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin-left: 6px;
+
+}
+
+a:hover {
+	color:yellow;
 }
 
 nav h1 {
-	margin:0;
+	width:20%;
+	display:inline;
+	padding-left: 2px;
 }
