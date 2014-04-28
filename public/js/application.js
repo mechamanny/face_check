@@ -11,7 +11,7 @@ $(document).ready(function() {
       canvas       = document.querySelector('#canvas'),
       photo        = document.querySelector('#photo'),
       startbutton  = document.querySelector('#startbutton'),
-      width = document.querySelector('.container').offsetWidth * 0.9,
+      width = document.querySelector('.container').offsetWidth * 0.8,
       height = 0;
 
   //grab video from webcam, find prefix for appropriate web browser
