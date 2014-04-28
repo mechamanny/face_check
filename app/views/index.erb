@@ -14,23 +14,5 @@
     <canvas id="canvas"></canvas>
     <img src="http://placekitten.com/g/860/645" id="photo" alt="photo">
     <!-- TODO put buttons in partial -->
-    <div class="buttons">
-     <div class='button-column'>
-      <button class='filter-button' id="grayscale" data="grayscale(100%)">Grayscale</button>
-      <button class='filter-button' id="sepia" data="sepia(100%)">Sepia</button>
-      <button class='filter-button' id="saturation" data="saturate(700%)">Saturation</button>
-    </div>
-    <div class='button-column'>
-      <button class='filter-button' id="hue-rotate" data="hue-rotate(90deg)">Hue Rotation</button>
-      <button class='filter-button' id="invert" data="invert(100%)">Invert</button>
-      <button class='filter-button' id="opacity" data="opacity(30%)">Opacity</button>
-    </div>
-    <div class='button-column'>
-      <button class='filter-button' id="brightness" data="brightness(15%)">Brightness</button>
-      <button class='filter-button' id="contrast" data="contrast(200%)">Contrast</button>
-      <button class='filter-button' id="blur" data="blur(2px)">Blur</button>
-    </div>
-    <button class='filter-button' id="reset" data="reset">Reset</button>
-  </div>
-
+    <%= erb :_buttons_partial  %>
 </div>
