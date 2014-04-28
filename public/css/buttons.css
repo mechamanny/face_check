@@ -1,0 +1,10 @@
+.filter-button, #startbutton {
+	font-family: Helvetica, Arial, "Lucida Grande", sans-serif; 	
+	color: white;
+	height:45px;
+	background:#6A9AD9;
+	box-shadow: none;
+	border:none;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
