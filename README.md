@@ -1,3 +1,3 @@
-### FACE CHECK
+### SimpleGram
 
-Are you not sure everyone at your party should be at your party? Face check uses open source biometrics to solve this problem.
+Playing with HTML5 video streaming, picture capture with canvas, css webkit filters. No imported libraries.
